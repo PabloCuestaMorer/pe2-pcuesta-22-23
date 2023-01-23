@@ -2,7 +2,7 @@ package main;
 
 import beans.Film;
 import beans.HashMap;
-import beans.QuickSortV2;
+import beans.QuickSort;
 
 /**
  * 
@@ -42,7 +42,7 @@ public class Main {
 		// Create an array of Films
 		Film[] films = { film1, film2, film3, film4, film5, film6, film7 };
 		// Sort the array of Films ASC
-		QuickSortV2<Film> quickSort = new QuickSortV2<>();
+		QuickSort<Film> quickSort = new QuickSort<>();
 		long startTime = System.nanoTime();
 		quickSort.sort(films, 0, films.length - 1, Film.BY_RATING_DURATION);
 		long endTime = System.nanoTime();

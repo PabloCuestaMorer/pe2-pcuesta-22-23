@@ -24,7 +24,7 @@ public class HashMap {
 	 * the table has enough space to store all the districts, even if the maximum
 	 * number is reached, and it will also help to reduce the number of collisions.
 	 */
-	static final int TABLE_LENGTH = 67;
+	static final int TABLE_LENGTH = 19;
 	/** Number of elements in the table */
 	private int numElements;
 	/** The load factor of the table */

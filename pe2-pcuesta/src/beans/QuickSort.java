@@ -1,6 +1,3 @@
-/**
- * 
- */
 package beans;
 
 import java.util.Comparator;
@@ -14,7 +11,7 @@ import java.util.Comparator;
  * @author Pablo Cuesta Morer
  * @date 2023-01-22
  */
-public class QuickSortV2<T> {
+public class QuickSort<T> {
 
 	/**
 	 * This function takes the pivot element as the median of the first, middle, and
